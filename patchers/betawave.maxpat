@@ -5471,7 +5471,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 176.5, 372.0, 150.0, 33.0 ],
+									"patching_rect" : [ 205.0, 373.0, 150.0, 33.0 ],
 									"text" : "Note: Disabled / cut wire due to bad things."
 								}
 
@@ -5485,7 +5485,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 176.5, 352.0, 106.0, 20.0 ],
+									"patching_rect" : [ 205.0, 353.0, 106.0, 20.0 ],
 									"text" : "if $i1 > -1 then $i1"
 								}
 
@@ -5581,7 +5581,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 176.5, 312.362305, 32.5, 18.0 ],
-									"text" : "-1"
+									"text" : "17"
 								}
 
 							}
@@ -5609,7 +5609,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 282.0, 216.362305, 32.5, 18.0 ],
-									"text" : "-1"
+									"text" : "17"
 								}
 
 							}
@@ -5704,6 +5704,15 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-106", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-166", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-106", 0 ]
@@ -7689,7 +7698,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 75.0, 261.0, 50.0, 18.0 ],
-													"text" : "64"
+													"text" : "17"
 												}
 
 											}
@@ -7703,7 +7712,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 175.538452, 261.0, 50.0, 18.0 ],
-													"text" : "64"
+													"text" : "17"
 												}
 
 											}
@@ -9299,7 +9308,7 @@
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "u180000586"
+					"varname" : "u492001709"
 				}
 
 			}
@@ -10040,7 +10049,7 @@
 									}
 ,
 									"text" : "pattr",
-									"varname" : "u513000632"
+									"varname" : "u538001755"
 								}
 
 							}
